@@ -12,6 +12,7 @@
 		606743CC1C7F5F1600B6D4EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606743CA1C7F5F1600B6D4EE /* Main.storyboard */; };
 		606743CE1C7F5F1600B6D4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606743CD1C7F5F1600B6D4EE /* Assets.xcassets */; };
 		606743D11C7F5F1600B6D4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606743CF1C7F5F1600B6D4EE /* LaunchScreen.storyboard */; };
+		606743D91C7F5F9200B6D4EE /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606743D81C7F5F9200B6D4EE /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		606743CD1C7F5F1600B6D4EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		606743D01C7F5F1600B6D4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		606743D21C7F5F1600B6D4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606743D81C7F5F9200B6D4EE /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		606743DA1C7F65E100B6D4EE /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +59,12 @@
 			children = (
 				606743C61C7F5F1600B6D4EE /* AppDelegate.swift */,
 				606743C81C7F5F1600B6D4EE /* ViewController.swift */,
+				606743D81C7F5F9200B6D4EE /* Datos.swift */,
 				606743CA1C7F5F1600B6D4EE /* Main.storyboard */,
 				606743CD1C7F5F1600B6D4EE /* Assets.xcassets */,
 				606743CF1C7F5F1600B6D4EE /* LaunchScreen.storyboard */,
 				606743D21C7F5F1600B6D4EE /* Info.plist */,
+				606743DA1C7F65E100B6D4EE /* test.playground */,
 			);
 			path = Hamburguesas;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			files = (
 				606743C91C7F5F1600B6D4EE /* ViewController.swift in Sources */,
 				606743C71C7F5F1600B6D4EE /* AppDelegate.swift in Sources */,
+				606743D91C7F5F9200B6D4EE /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
